@@ -1,12 +1,46 @@
-Body{
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+header{
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+body{
     background-image:url('https://i.pinimg.com/736x/b7/f3/1b/b7f31b9ec96d3780e90f4ac64bca9e53.jpg');
   background-size: auto 100vh;
-    font-familly: Arial;
-    heigth: 100vh;
+    font-family: Arial;
+    height: 100vh;
+    font-size: 10px;
   }
-  .menu{ 
+
+  @media (min-width: 400px) {
+    body{
+      font-size: 14;
+    } 
+    menu{ 
+      background-color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+ 
+@media (min-width: 800px) {
+  body{
+    font-size: 16;
+  }
+   
+.menu{ 
     background-color: white;
-    
+position: fixed;
+width: 100vw;
+top: 0;
   }
   a{
     color: teal;
@@ -17,9 +51,14 @@ Body{
     text-decoration: underline; 
   }
   
+  .menu a{
+    padding: 10px 20px;
+    display: block;
+  }
   .menu ul {
     display: Flex;
     justify-content: space-around;
+
   }
   
   .menu li{
@@ -28,10 +67,20 @@ Body{
   
   .site-subtitle,
   .site-title{
-    color: fuchsia;
+    color:#C71585 ;
     text-align: center;
+    margin: 10px;
+   
+    
   }
   
   .site-sutitle{
     font-style: italic;
   }
+
+  .img-portfolio{
+    width: 180px;
+    height: 180px;
+  }
+
+   

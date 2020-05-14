@@ -15,9 +15,9 @@ header{
 body{
     background-image:url('https://i.pinimg.com/736x/b7/f3/1b/b7f31b9ec96d3780e90f4ac64bca9e53.jpg');
   background-size: auto 100vh;
-    font-family: Arial;
     height: 100vh;
     font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
 }
     
     
@@ -80,13 +80,46 @@ top: 0;
     
   }
   
+  .site-title{
+    font-size: 4em;
+    font-family: 'Handlee', cursive;
+  }
+  
   .site-sutitle{
     font-style: italic;
+    font-family: 'Pangolin', cursive;
   }
 
-  .img-portfolio{
-    width: 180px;
-    height: 180px;
+.portifolio h2{
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 1.5em;
+  font-size: 2em;
+}
+
+.portfolio .grid{
+  display: grid;
+  gap: 2em;
+  }
+   
+   
+  
+  @media (min-width: 560px) {
+      .portfolio .grid {
+        grid-template-columns :240px 240px;
+        }
+    }
+  
+
+
+  .portfolio figure{
+    text-align: center;
+
+  }
+
+
+.img-portfolio{
+    width: 200px;
+    height: 240px;
   }
 
    

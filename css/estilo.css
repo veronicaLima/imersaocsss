@@ -130,6 +130,8 @@ z-index: 1;
 .portfolio .grid {
   display: grid;
   gap: 2em;
+  grid-template-columns: 240px 240px;
+
 }
 
 

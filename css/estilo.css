@@ -116,7 +116,7 @@ z-index: 1;
 .contato,
 .portfolio{
   padding: 2em;
-  height: 30em;
+  height: auto;
 }
 
 .contato h2,
@@ -124,7 +124,7 @@ z-index: 1;
   font-family: 'Indie Flower', cursive;
   margin-bottom: 1.5em;
   font-size: 2em;
-  margin-top: 6em;
+  margin-top: 5em;
 }
 
 .portfolio .grid {
@@ -132,7 +132,6 @@ z-index: 1;
   gap: 2em;
 
 }
-
 
 
 @media (min-width: 560px) {
